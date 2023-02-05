@@ -30,6 +30,7 @@
 @import url(../blocks/about/__image/about__image.css);
 @import url(../blocks/about/__section/about__section.css);
 @import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/fadein-left/fadein-left.css);
 
 @import url(../blocks/looks/looks.css);
 @import url(../blocks/looks/__image/looks__image.css);

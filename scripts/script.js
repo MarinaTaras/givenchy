@@ -49,3 +49,37 @@ function submitForm(event) {
     footerItem.innerText = footerItemValue.value
   
 }
+
+/**
+ * ABOUT 
+ */
+
+const moveLefts = document.querySelectorAll('.left')
+const moveRight = document.querySelectorAll('#right')
+
+console.log(moveLefts)
+
+window.addEventListener('scroll', fadeinleft)
+
+function fadeinleft() {
+  for (let i = 0; i < moveLefts.length; i++ ) {
+    const moveLeft = moveLefts[i];
+    const moveLeftHeight = moveLeft.offsetHeight;
+    const moveLeftOffset = offSet(moveLeft).top;
+    const moveLeftStart = 4;
+
+    let moveLeftPoint = window.innerHeight - moveLeftHeight/moveLeftStart
+    if (moveLeftHeight > window.innerHeight) {
+      moveLeftPoint = window.innerHeight - window.innerHeight/moveLeftStart
+    }
+
+    if ((pageYOffSet > moveLeftOffset - moveLeftPoint) && (pageYOffSet < (moveLeftOffset - moveLeftHeight))) {
+      moveLeft.classList.add('fadein-left')
+    } else {
+      moveLeft.classList.remove('fadein-left')
+    }
+  
+
+
+  }
+}

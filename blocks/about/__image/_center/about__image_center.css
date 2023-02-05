@@ -3,12 +3,13 @@
   width: 700px;
   height: 875px;
   margin-left: -175px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1400px) {
   .about__image_center {
     width: calc(364px + 336*(100vw - 768px)/(1400 - 768));
-    height: calc(452px + 423*(100vw - 768px)/(1400 - 768));;
+    height: calc(452px + 423*(100vw - 768px)/(1400 - 768));
     margin-left: calc(-121px - 54*(100vw - 768px)/(1400 - 768));
   }
 }

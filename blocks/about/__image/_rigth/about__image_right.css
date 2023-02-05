@@ -2,12 +2,14 @@
   background-image: url(../../../../images/beige_wear.png);
   width: 875px;
   height: 1095px;
+  margin-left: -175px;
 }
 
 @media screen and (max-width: 1400px) {
   .about__image_right {
     width: calc(485px + 390*(100vw - 768px)/(1400 - 768));
-    height: calc(607px + 488*(100vw - 768px)/(1400 - 768));;
+    height: calc(607px + 488*(100vw - 768px)/(1400 - 768));
+    margin-left: calc(-121px - 54*(100vw - 768px)/(1400 - 768));
   }
 }
 
