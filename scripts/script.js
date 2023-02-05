@@ -65,7 +65,7 @@ function fadeinleft() {
   for (let i = 0; i < moveLefts.length; i++ ) {
     const moveLeft = moveLefts[i];
     const moveLeftHeight = moveLeft.offsetHeight;
-    const moveLeftOffset = offSet(moveLeft).top;
+    const moveLeftOffset = moveLeft.offsetTop;
     const moveLeftStart = 4;
 
     let moveLeftPoint = window.innerHeight - moveLeftHeight/moveLeftStart
@@ -73,7 +73,7 @@ function fadeinleft() {
       moveLeftPoint = window.innerHeight - window.innerHeight/moveLeftStart
     }
 
-    if ((pageYOffSet > moveLeftOffset - moveLeftPoint) && (pageYOffSet < (moveLeftOffset - moveLeftHeight))) {
+    if ((window.pageYOffset > moveLeftOffset - moveLeftPoint) && (window.pageYOffset < (moveLeftOffset - moveLeftHeight))) {
       moveLeft.classList.add('fadein-left')
     } else {
       moveLeft.classList.remove('fadein-left')
