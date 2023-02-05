@@ -2,12 +2,14 @@
   background-image: url(../../../../images/black_wear.png);
   width: 618px;
   height: 618px;
+  margin-right: 80px;
 }
 
 @media screen and (max-width: 1400px) {
   .about__image_left {
     width: calc(304px + 314*(100vw - 768px)/(1400 - 768));
-    height: calc(304px + 314*(100vw - 768px)/(1400 - 768));;
+    height: calc(304px + 314*(100vw - 768px)/(1400 - 768));
+    margin-right: 60px;
   }
 }
 
@@ -15,5 +17,6 @@
   .about__image_left {
     width: calc(280px + 24*(100vw - 320px)/(768 - 320));
     height: calc(280px + 24*(100vw - 320px)/(768 - 320));
+    margin: 0;
   }
 }
