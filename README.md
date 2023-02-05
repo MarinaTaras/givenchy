@@ -5,3 +5,5 @@ educational project
 
 Используемые технологии:
 JavaScript, CSS, HTML.
+
+Ссылка на сайт: https://marinataras.github.io/givenchy/index.html
