@@ -1,0 +1,22 @@
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  margin: 0px auto;
+  gap: 40px;
+  width: 1400px;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .footer__section {
+    width: calc(728px + 672*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__section {
+    width: calc(280px + 448*(100vw - 320px)/(768 - 320));
+  }
+}

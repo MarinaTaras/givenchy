@@ -1,0 +1,10 @@
+.footer__checkbox_visible {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  /* background: #0A0A0A url('../../../images/check_icon.svg') no-repeat center; */
+}

@@ -1,0 +1,37 @@
+.menu__span {
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background-color: #0A0A0A;
+  left: 4px;
+  top: 23px;
+}
+
+.menu__span:first-child {
+  left: 4px;
+  top: 7px;
+}
+
+.menu__span:last-child {
+  left: 4px;
+  top: 39px;
+}
+
+@media screen and (max-width: 700px) {
+  .menu__span {
+    left: 1px;
+    width: calc(20px + 20*(100vw - 320px)/(700 - 320));
+    top: calc(12px + 11*(100vw - 320px)/(700 - 320));
+    height: 2px;
+  }
+
+  .menu__span:first-child {
+    left: 1px;
+    top: 4px;
+  }
+
+  .menu__span:last-child {
+    left: 1px;
+    top: calc(20px + 19*(100vw - 320px)/(700 - 320));
+  }
+}

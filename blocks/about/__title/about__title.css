@@ -1,0 +1,18 @@
+.about__title {
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+@media screen and (max-width: 1400px) {
+  .about__title {
+    width: calc(373px + 327*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__title {
+    width: calc(280px + 93*(100vw - 320px)/(768 - 320));
+    gap: 20px;
+  }
+}

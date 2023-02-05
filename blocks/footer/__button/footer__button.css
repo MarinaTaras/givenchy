@@ -1,0 +1,16 @@
+.footer__button {
+  padding: 12px 24px;
+  margin: 0;
+  width: 108px;
+  background-color: white;
+  color: black;
+  border: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__button {
+    width: calc(280px - 172*(100vw - 320px)/(768 - 320));
+    padding: 12px 114px;
+  }
+}

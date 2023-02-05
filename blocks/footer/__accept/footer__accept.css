@@ -1,0 +1,20 @@
+.footer__accept {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  border: none;
+  color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .footer__accept {
+    width: calc(486px + 214*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__accept {
+    width: calc(280px + 206*(100vw - 320px)/(768 - 320));
+  }
+}

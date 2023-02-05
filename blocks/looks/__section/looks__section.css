@@ -1,0 +1,22 @@
+.looks__section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 80px;
+  padding: 0;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+  .looks__section {
+    width: calc(728px + 672*(100vw - 768px)/(1400 - 768));
+    margin: 0 auto 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .looks__section {
+    width: calc(280px + 448*(100vw - 320px)/(768 - 320));
+    margin: 0 auto 40px;
+    gap: 20px;
+  }
+}

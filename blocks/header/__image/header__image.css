@@ -1,0 +1,21 @@
+.header__image {
+  object-fit: cover;
+  object-position: center;
+  max-width: 700px;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__image {
+    width: calc(486px + 514*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__image {
+    width: calc(320px + 166*(100vw - 320px)/(768 - 320));
+  }
+}

@@ -1,0 +1,24 @@
+.text__headline {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .text__headline {
+    font-size: calc(32px + 16*((100vw - 768px)/(1400 - 768)));
+    line-height: calc(40px + 24*((100vw - 768px)/(1400 - 768)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .text__headline {
+    font-size: calc(24px + 8*((100vw - 320px)/(768 - 320)));
+    line-height: calc(32px + 8*((100vw - 320px)/(768 - 320)));
+  }
+}

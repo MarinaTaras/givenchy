@@ -1,0 +1,21 @@
+.about__discription {
+  display: flex;
+  flex-direction: column;
+ align-self: center;
+  width: 700px;
+  gap: 24px;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1400px) {
+  .about__discription {
+    width: calc(373px + 327*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__discription {
+    width: calc(280px + 93*(100vw - 320px)/(768 - 320));
+    gap: 20px;
+  }
+}

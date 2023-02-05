@@ -1,0 +1,9 @@
+.popup-menu__burger {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.popup-menu__burger:hover .popup-menu__span {
+  background-color: #999999;
+}

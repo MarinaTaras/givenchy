@@ -1,0 +1,19 @@
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+}
+
+@media screen and (max-width: 1400px) {
+  .footer__form {
+    width: calc(486px + 214*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__form {
+    width: calc(280px + 206*(100vw - 320px)/(768 - 320));
+  }
+}

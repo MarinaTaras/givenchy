@@ -1,0 +1,10 @@
+.about__article_revers {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .about__article_revers {
+    flex-direction: column-reverse;
+  }
+}

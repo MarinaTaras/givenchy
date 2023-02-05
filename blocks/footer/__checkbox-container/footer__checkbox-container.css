@@ -1,0 +1,13 @@
+.footer__checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 32px;
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 1365px) {
+  .footer__checkbox-container {
+    font-size: 12px;
+    padding-top: 6px;
+  }
+} */

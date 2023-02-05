@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>GIVANCHY</title>
+  <link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="header page__section">
+      <div class="header__section">
+        <div class="header__menu menu">
+          <div class="menu__burger">
+            <span class="menu__span"></span>
+            <span class="menu__span"></span>
+            <span class="menu__span"></span>
+          </div>
+          <p class="menu__text text__buttons">MENU</p>
+        </div>
+        <img class="header__image" src="./images/header_image.jpg" alt="brutal-men">
+        <div class="header__text">
+          <h1 class="header__title text__headline">
+            GIVENCHY
+            <br> SPRING SUMMER 2021
+            <br> BY MATTHEW M. WILLIAMS
+          </h1>
+          <div class="header__subscribe text__small">
+            Subscribe to collection’s news
+          </div>
+        </div>
+
+      </div>
+
+    </header>
+
+    <main class="content">
+
+      <section class="about page__section" id="about">
+        <div class="about__section">
+
+          <div class="about__article">
+            <h2 class="about__title text__headline">ABOUT</h2>
+            <p class="about__discription text__text">
+              The Spring-Summer ‘21 collection explores Givenchy in the form of a stream of
+              consciousness for Williams and is a ‘sampler’ of what is to come.
+            </p>
+          </div>
+
+
+          <div class="about__article about__article_revers">
+            <div class="about__discription-container">
+              <p class="about__discription text__lead">“To me, fashion expresses a point of view
+                where formality and
+                informality, construction and comfort co-exist. My ethos is about the luxury of
+                infusing clothes with your own personality, not being worn by them,”</p>
+              <p class="about__discription text__lead">Matthew M. Williams.</p>
+            </div>
+            <div class="about__image about__image_center"></div>
+          </div>
+
+          <div class="about__article">
+            <div class="about__image about__image_left"></div>
+            <p class="about__discription text__text">Matthew M. Williams reveals his vision with
+              help from an all-star lineup of likeminded artists. The Creative Director called on
+              close
+              friends in his tight-knit community of artists. Kendall Jenner, Bella Hadid,
+              Playboi Carti and the supermodels Anok Yai and Liam Powers were each invited to
+              put their own stamp on key pieces, the better to highlight the importance of
+              cultivating a powerful personal style.
+            </p>
+          </div>
+
+          <div class="about__article about__article_revers">
+            <div class="about__discription-container">
+              <p class="about__discription text__lead">“In each of these portraits, a strong
+                character wears a look that reflects who they are: they’re the ones who bring the
+                clothes to life.”</p>
+              <p class="about__discription text__lead">Matthew M. Williams.</p>
+            </div>
+            <div class="about__image about__image_right"></div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="looks page__section" id="looks">
+        <div class="looks__section">
+          <h2 class="looks__title text__headline">LOOKS</h2>
+          <div class="looks__images">
+            <img class="looks__image" src="./images/_0001.png" alt="">
+            <img class="looks__image" src="./images/_0002.png" alt="">
+            <img class="looks__image" src="./images/_0003.png" alt="">
+            <img class="looks__image" src="./images/_0004.png" alt="">
+            <img class="looks__image" src="./images/_0005.png" alt="">
+            <img class="looks__image" src="./images/_0006.png" alt="">
+            <img class="looks__image" src="./images/_0007.png" alt="">
+            <img class="looks__image" src="./images/_0008.png" alt="">
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer page__section">
+      <section class="footer__section">
+        <div class="footer__text">
+          <p class="text__text">Subscribe to the newsletterand be the first to know about new
+            collection’s drop date and news</p>
+        </div>
+
+        <form class="footer__form" name="footer-form" id="footer-form">
+          <fieldset class="footer__fieldset">
+            <input class="footer__item" id="footer-item" placeholder="Eneter your email  here"
+              type="text" name="footer-item" />
+            <button class="footer__button text__buttons" type="submit" id="submit">SUBMIT</button>
+          </fieldset>
+        </form>
+        <fieldset class="footer__accept">
+          <label for="offer" class="footer__checkbox-container text__small">I consent to the
+            processing of my data by GIVENCHY in accordance
+            with the conditions set forth in the Privacy Policy
+            <input class="footer__checkbox_invisible" type="checkbox" id="offer" name="offer"
+              required>
+            <span class="footer__checkbox_visible"></span>
+          </label>
+        </fieldset>
+
+        <div class="footer__text">
+          <p class="text__text">© 2021, Givenchy. Some rights reserved</p>
+        </div>
+      </section>
+
+    </footer>
+    <div class="popup-menu overlay">
+      <div class="page__section popup-menu__gray">
+        <div class="popup-menu__black">
+          <div class="menu__burger popup-menu__burger">
+            <span class="menu__span popup-menu__span"></span>
+            <span class="menu__span popup-menu__span"></span>
+            <span class="menu__span popup-menu__span"></span>
+          </div>
+          <div class="popup-menu__list-wrapper">
+            <ul class="popup-menu__list">
+              <li class="text__buttons">
+                <a class="popup-menu__item" href="#about">ABOUT</a>
+              </li>
+              <li class="text__buttons">
+                <a class="popup-menu__item" href="#looks">LOOKS</a>
+              </li>
+              <li class="text__buttons">
+                <a class="popup-menu__item" href="subscribe">SUBSCRIBE</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+</body>
+<!-- подключаем файл JS скриптов -->
+<script src="./scripts/images.js"></script>
+<script src="./scripts/script.js"></script>
+
+
+</html>

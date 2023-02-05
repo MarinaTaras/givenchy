@@ -1,0 +1,27 @@
+.looks__images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  max-width: 1400px;
+  overflow: visible;
+  align-self: center;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .looks__images {
+   grid-template-columns: repeat(3, minmax(242px, 1fr));
+   max-height: 604px;
+   overflow: hidden;
+   width: calc(728px + 672*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .looks__images{
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    width: calc(280px + 448*(100vw - 320px)/(768 - 320));
+    overflow: visible;
+    max-height: 696px;
+  }
+}

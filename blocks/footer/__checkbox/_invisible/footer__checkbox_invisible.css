@@ -1,0 +1,12 @@
+.footer__checkbox_invisible {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.footer__checkbox_invisible:checked+.footer__checkbox_visible {
+  background: #0A0A0A url(/images/check_icon.svg) no-repeat center;
+
+}

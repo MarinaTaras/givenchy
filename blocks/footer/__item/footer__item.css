@@ -1,0 +1,25 @@
+.footer__item {
+  width: 592px;
+  margin: 0;
+  padding: 12px 26px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .footer__item {
+    width: calc(378px + 214*(100vw - 768px)/(1400 - 768));
+    padding: 12px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__item {
+    width: calc(280px + 98*(100vw - 320px)/(768 - 320));
+    padding: 10px 48px;
+  }
+}

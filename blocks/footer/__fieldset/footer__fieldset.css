@@ -1,0 +1,24 @@
+.footer__fieldset {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .footer__fieldset{
+    width: calc(486px + 214*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__fieldset{
+    flex-direction: column;
+    width: calc(280px + 206*(100vw - 320px)/(768 - 320));
+  }
+}

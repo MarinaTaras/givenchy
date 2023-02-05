@@ -1,0 +1,20 @@
+.footer__text {
+  display: flex;
+  width: 700px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .footer__text {
+    width: calc(486px + 214*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__text {
+    width: calc(280px + 206*(100vw - 320px)/(768 - 320));
+  }
+}

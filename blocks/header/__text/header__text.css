@@ -1,0 +1,25 @@
+.header__text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__text {
+    margin-left: calc(-223px + 223*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__text {
+    position: absolute;
+    top: 111px;
+    left: 0px;
+    margin: 0;
+    z-index: 5;
+  }
+}

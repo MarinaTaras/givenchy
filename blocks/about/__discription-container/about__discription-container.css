@@ -1,0 +1,12 @@
+.about__discription-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__discription-container {
+    gap: 20px;
+  }
+}

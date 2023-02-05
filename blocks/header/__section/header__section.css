@@ -1,0 +1,18 @@
+.header__section {
+  display: flex;
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__section {
+    width: calc(728px + 672*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__section {
+    width: calc(280px + 448*(100vw - 320px)/(768 - 320));
+  }
+}

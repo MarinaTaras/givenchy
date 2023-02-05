@@ -1,0 +1,17 @@
+.looks__image {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+}
+
+@media screen and (max-width: 1400px) {
+  .looks__image {
+   width: calc(242px + 108*(100vw - 768px)/(1400 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .looks__image{
+    width: calc(140px + 103*(100vw - 320px)/(768 - 320));
+  }
+}
