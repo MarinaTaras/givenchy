@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -12,7 +12,7 @@
 <body>
   <div class="page">
 
-    <header class="header page__section">
+    <header class="page__section header_color">
       <div class="header__section">
         <div class="header__menu menu">
           <div class="menu__burger">
@@ -24,14 +24,12 @@
         </div>
         <img class="header__image" src="./images/header_image.jpg" alt="brutal-men">
         <div class="header__text">
-          <h1 class="header__title text__headline">
-            GIVENCHY
-            <br> SPRING SUMMER 2021
-            <br> BY MATTHEW M. WILLIAMS
-          </h1>
-          <div class="header__subscribe text__small">
-            Subscribe to collection’s news
+          <div class="header__title text__headline">
+            <div>GIVENCHY</div>
+            <div>SPRING SUMMER 2021</div>
+            <div>BY MATTHEW M. WILLIAMS</div>
           </div>
+          <button class="header__subscribe text__buttons" type="button">Subscribe to collection’s news</button>
         </div>
 
       </div>
@@ -44,8 +42,8 @@
         <div class="about__section">
 
           <div class="about__article">
-            <h2 class="about__title text__headline left">ABOUT</h2>
-            <p class="about__discription text__text" id="right">
+            <div class="about__title text__headline left">ABOUT</div>
+            <p class="about__discription text__text right">
               The Spring-Summer ‘21 collection explores Givenchy in the form of a stream of
               consciousness for Williams and is a ‘sampler’ of what is to come.
             </p>
@@ -60,12 +58,12 @@
                 infusing clothes with your own personality, not being worn by them,”</p>
               <p class="about__discription text__lead">Matthew M. Williams.</p>
             </div>
-            <div class="about__image about__image_center" id="right"></div>
+            <img src="/images/red_wear.png" class="about__image about__image_center right" alt="woman-in-red">
           </div>
 
           <div class="about__article">
-            <div class="about__image about__image_left left"></div>
-            <p class="about__discription text__text" id="right">Matthew M. Williams reveals his vision with
+            <img src="/images/black_wear.png" class="about__image about__image_left left" alt="woman-in-black">
+            <p class="about__discription about__discription_padding text__text right">Matthew M. Williams reveals his vision with
               help from an all-star lineup of likeminded artists. The Creative Director called on
               close
               friends in his tight-knit community of artists. Kendall Jenner, Bella Hadid,
@@ -82,7 +80,7 @@
                 clothes to life.”</p>
               <p class="about__discription text__lead">Matthew M. Williams.</p>
             </div>
-            <div class="about__image about__image_right" id="right"></div>
+            <img src="/images/beige_wear.png" class="about__image about__image_right right" alt="woman-in-beige">
           </div>
 
         </div>
@@ -90,23 +88,23 @@
 
       <section class="looks page__section" id="looks">
         <div class="looks__section">
-          <h2 class="looks__title text__headline">LOOKS</h2>
+          <div class="looks__title text__headline">LOOKS</div>
           <div class="looks__images">
-            <img class="looks__image" src="./images/_0001.png" alt="">
-            <img class="looks__image" src="./images/_0002.png" alt="">
-            <img class="looks__image" src="./images/_0003.png" alt="">
-            <img class="looks__image" src="./images/_0004.png" alt="">
-            <img class="looks__image" src="./images/_0005.png" alt="">
-            <img class="looks__image" src="./images/_0006.png" alt="">
-            <img class="looks__image" src="./images/_0007.png" alt="">
-            <img class="looks__image" src="./images/_0008.png" alt="">
+            <img class="looks__image" src="./images/_0001.png" alt="fashion">
+            <img class="looks__image" src="./images/_0002.png" alt="fashion">
+            <img class="looks__image" src="./images/_0003.png" alt="fashion">
+            <img class="looks__image" src="./images/_0004.png" alt="fashion">
+            <img class="looks__image" src="./images/_0005.png" alt="fashion">
+            <img class="looks__image" src="./images/_0006.png" alt="fashion">
+            <img class="looks__image" src="./images/_0007.png" alt="fashion">
+            <img class="looks__image" src="./images/_0008.png" alt="fashion">
           </div>
         </div>
       </section>
 
     </main>
 
-    <footer class="footer page__section">
+    <footer class="page__section footer_color">
       <section class="footer__section">
         <div class="footer__text">
           <p class="text__text">Subscribe to the newsletterand be the first to know about new
@@ -119,8 +117,7 @@
               type="text" name="footer-item" />
             <button class="footer__button text__buttons" type="submit" id="submit">SUBMIT</button>
           </fieldset>
-        </form>
-        <fieldset class="footer__accept">
+          <fieldset class="footer__accept">
           <label for="offer" class="footer__checkbox-container text__small">I consent to the
             processing of my data by GIVENCHY in accordance
             with the conditions set forth in the Privacy Policy
@@ -129,7 +126,8 @@
             <span class="footer__checkbox_visible"></span>
           </label>
         </fieldset>
-
+        </form>
+        
         <div class="footer__text">
           <p class="text__text">© 2021, Givenchy. Some rights reserved</p>
         </div>
@@ -163,12 +161,9 @@
 
     </div>
   </div>
-
-</body>
-
 <!-- подключаем файл JS скриптов -->
 <script src="./scripts/images.js"></script>
 <script src="./scripts/script.js"></script>
-
+</body>
 
 </html>

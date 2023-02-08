@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 1400px) {
-  .header__image {
+  .header__title {
     width: calc(485px + 515*(100vw - 768px)/(1440 - 768));
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header__image {
+  .header__title {
     width: calc(280px + 205*(100vw - 320px)/(768 - 320));
   }
 }

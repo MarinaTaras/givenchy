@@ -1,5 +1,4 @@
 .about__image_right {
-  background-image: url(../../../../images/beige_wear.png);
   width: 875px;
   height: 1095px;
   margin-left: -175px;
@@ -17,5 +16,6 @@
   .about__image_right {
     width: calc(280px + 205*(100vw - 320px)/(768 - 320));
     height: calc(350px + 257*(100vw - 320px)/(768 - 320));
+    margin: 0;
   }
 }

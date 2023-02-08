@@ -1,5 +1,4 @@
 .about__image_left {
-  background-image: url(../../../../images/black_wear.png);
   width: 618px;
   height: 618px;
   margin-right: 80px;
@@ -10,6 +9,7 @@
     width: calc(304px + 314*(100vw - 768px)/(1400 - 768));
     height: calc(304px + 314*(100vw - 768px)/(1400 - 768));
     margin-right: 60px;
+    align-self: center;
   }
 }
 
