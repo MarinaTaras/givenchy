@@ -1,0 +1,4 @@
+.move-right {
+  transform: translateX(-1%);
+  transition: all 0.9s ease-out 0s;
+}

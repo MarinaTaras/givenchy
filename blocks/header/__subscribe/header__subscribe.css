@@ -4,11 +4,19 @@
   max-width: 350px;
   background-color: #0A0A0A;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
 
-/* @media screen and (max-width: 767px) {
-  .header__image {
-    width: calc(320px + 165*(100vw - 320px)/(768 - 320));
+@media screen and (max-width: 767px) {
+  .header__subscribe {
+    max-width: 280px;
+    padding: 12px 13.5px;
   }
-} */
+}
+
+.header__subscribe:hover {
+  background-color: white;
+  color: #0A0A0A;
+}

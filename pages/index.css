@@ -5,8 +5,8 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__section/page__section.css);
 
-@import url(../blocks/header/header.css);
 @import url(../blocks/header/__section/header__section.css);
+@import url(../blocks/header/_color/header_color.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__image/header__image.css);
 @import url(../blocks/header/__text/header__text.css);
@@ -24,13 +24,14 @@
 @import url(../blocks/about/__article/_revers/about__article_revers.css);
 @import url(../blocks/about/__discription-container/about__discription-container.css);
 @import url(../blocks/about/__discription/about__discription.css);
+@import url(../blocks/about/__discription/_padding/about__discription_padding.css);
 @import url(../blocks/about/__image/_center/about__image_center.css);
 @import url(../blocks/about/__image/_left/about__image_left.css);
 @import url(../blocks/about/__image/_rigth/about__image_right.css);
 @import url(../blocks/about/__image/about__image.css);
 @import url(../blocks/about/__section/about__section.css);
 @import url(../blocks/about/__title/about__title.css);
-@import url(../blocks/about/fadein-left/fadein-left.css);
+@import url(../blocks/about/fadein/fadein.css);
 
 @import url(../blocks/looks/looks.css);
 @import url(../blocks/looks/__image/looks__image.css);
@@ -44,8 +45,8 @@
 @import url(../blocks/text/__text/text__text.css);
 @import url(../blocks/text/__small/text__small.css);
 
-@import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__section/footer__section.css);
+@import url(../blocks/footer/_color/footer_color.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__fieldset/footer__fieldset.css);
 @import url(../blocks/footer/__form/footer__form.css);
@@ -66,4 +67,8 @@
 @import url(../blocks/popup-menu/__list/popup-menu__list.css);
 @import url(../blocks/popup-menu/__list-wrapper/popup-menu__list-wrapper.css);
 
+@import url(../blocks/left/left.css);
+@import url(../blocks/move-left/move-left.css);
+@import url(../blocks/right/right.css);
+@import url(../blocks/move-right/move-right.css);
 

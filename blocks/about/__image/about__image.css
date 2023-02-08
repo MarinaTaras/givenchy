@@ -1,5 +1,4 @@
 .about__image {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  object-position: center;
+  object-fit: cover;
 }

@@ -1,0 +1,11 @@
+.about__discription_padding {
+  padding-top: 167px;
+  align-self:inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .about__discription_padding {
+    padding-top: 0;
+    align-self: center;
+  }
+}
